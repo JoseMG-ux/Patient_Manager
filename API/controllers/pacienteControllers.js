@@ -2,5 +2,6 @@
 //When create new client
 exports.nuevoCliente = ( req, res, next ) => {
     -//TODO: Insert in BD
-    res.js({ mensaje : 'El Cliente se agrego correctamente'});
+    console.log(req.body)
+    res.json({ mensaje : 'El Cliente se agrego correctamente' });
 }
